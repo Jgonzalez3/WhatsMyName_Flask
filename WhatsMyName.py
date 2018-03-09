@@ -12,6 +12,5 @@ def process():
     name = request.form["name"]
     email = request.form["email"]
     print "Name:", name, "Email:", email
-
     return redirect("/")
 app.run(debug=True)
